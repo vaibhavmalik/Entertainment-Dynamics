@@ -26,7 +26,7 @@ ans = 0
 
 for i in range(128):
 	if freq[i]>1:
-		ans += (freq[i]%(10^9+7)) * ((freq[i]-1)%(10^9+7)) * (2^{-1)%(10^9+7))
+		ans += freq[i]*(freq[i]-1)/2
 
 ans = ans % 1000000007
 print (int(ans))
